@@ -28,7 +28,7 @@ def convert(t):
     t %= 60
     seconds = t
 
-    print("{} day(s), {} hour(s), {} minute(s), {} day(s)".format(day, hour, minutes, seconds))
+    print("{} day(s), {} hour(s), {} minute(s), {} second(s)".format(day, hour, minutes, seconds))
 
     
 def main():
